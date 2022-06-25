@@ -7,6 +7,31 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "activate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isActive",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "myBool",
 				"outputs": [
 					{
@@ -85,6 +110,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "enum MyFirstContract.State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "value",
 				"outputs": [
 					{
@@ -125,11 +163,11 @@
 	},
 	"sources": {
 		"contracts/my_first_contract.sol": {
-			"keccak256": "0x350ff4deacc9540382115b6e0a0bc12015cb7ace77c32349fba0a9b6b1fe49e7",
+			"keccak256": "0xd7549c2a117695191dc12e50bb90bdfed07cd93515a460502d69fa0512a07aa3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://59826bae6afc1e07ee7b01da85dff4a8e1d6e267a238ed6810a8853db6d5749d",
-				"dweb:/ipfs/QmXrULJ6avySiQV6HKTHvDy8R6EvKD7Yz2yJudRMbDbVcV"
+				"bzz-raw://75af25c43cf4486381c3280c264f36efe481fdd8cfcd548ebd9ad0ee78e429ed",
+				"dweb:/ipfs/QmRWMECcLDfjUwGB6ZZrcvWtSctdcuSTvFHfC6gP6EvNL4"
 			]
 		}
 	},
