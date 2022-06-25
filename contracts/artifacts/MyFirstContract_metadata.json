@@ -7,17 +7,64 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"name": "myBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "get",
+				"name": "myInt",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "int256",
 						"name": "",
-						"type": "string"
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUInt256",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUInt8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -34,6 +81,19 @@
 				"name": "set",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -65,11 +125,11 @@
 	},
 	"sources": {
 		"contracts/my_first_contract.sol": {
-			"keccak256": "0xf1b9f96d9d50d80621ee9ab84243be2cd54c183b68db45108f37a4cdc0e6d161",
+			"keccak256": "0x350ff4deacc9540382115b6e0a0bc12015cb7ace77c32349fba0a9b6b1fe49e7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://938979ed4fce997c97a1b7f703b1394e3a7ac9a4ca3103813b7e30bed6146366",
-				"dweb:/ipfs/Qmcepp3uiG2Rbu6YpJJy6ECmgfVn7HZXYJKBLZVF4qLSVv"
+				"bzz-raw://59826bae6afc1e07ee7b01da85dff4a8e1d6e267a238ed6810a8853db6d5749d",
+				"dweb:/ipfs/QmXrULJ6avySiQV6HKTHvDy8R6EvKD7Yz2yJudRMbDbVcV"
 			]
 		}
 	},
